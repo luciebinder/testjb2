@@ -9,12 +9,11 @@ project:
 
   toc:
     root: lecture/general_information/index.md
-    chapters:
       - file: lecture/general_information/overview.md
       - file: lecture/general_information/setup.md
       - file: lecture/general_information/intro.md
       - file: lecture/content/intro_content.md
-        sections:
+        children:
           - file: lecture/content/static_content.md
           - file: lecture/content/interactive_notebook.ipynb
       - file: lecture/general_information/CoC.md
