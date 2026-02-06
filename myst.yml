@@ -6,13 +6,6 @@ project:
   authors:
     - name: Lucie Binder    
   github: luciebinder/testjb2
-
-  requirements: 
-    - jupyter-book>=2
-    - matplotlib
-    - numpy
-    - pandas
-    - jupytext
   
   license: SD 3-Clause License
   
@@ -32,3 +25,10 @@ site:
   # template: book-theme
   options: 
     logo: lecture/static/logo.png
+  actions:
+    - title: View on GitHub
+      url: https://github.com/luciebinder/testjb2
+
+deploy:
+  url: https://luciebinder.github.io/testjb2
+
