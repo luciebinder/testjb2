@@ -26,7 +26,6 @@ project:
 site:
   options: 
     logo: lecture/static/logo.png
-    use_title: false
   actions:
     - title: View on GitHub
       url: https://github.com/luciebinder/testjb2
@@ -43,3 +42,7 @@ sphinx:
     - sphinx_book_theme
   config:
     html_theme: classic
+    html_static_path:
+      - _static
+    html_css_files:
+      - custom.css
