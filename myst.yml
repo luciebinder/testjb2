@@ -3,23 +3,26 @@ version: 1
 project:
   title: Course Template for ressources in higher education
   copyright: "2022"
+  github: luciebinder/testjb2
 
-site:
-  logo: lecture/static/logo.png
-
-build:
-  execute:
-    execute_notebooks: off
-
-navigation:
-  root: lecture/general_information/index
+toc:
+  root: lecture/general_information/index.md
   chapters:
-    - file: lecture/general_information/overview
-    - file: lecture/general_information/setup
-    - file: lecture/general_information/intro
-    - file: lecture/content/intro_content
+    - file: lecture/general_information/overview.md
+    - file: lecture/general_information/setup.md
+    - file: lecture/general_information/intro.md
+    - file: lecture/content/intro_content.md
       sections:
         - file: lecture/content/static_content
         - file: lecture/content/interactive_notebook
     - file: lecture/general_information/CoC
     - file: lecture/general_information/dei
+
+site:
+  options: 
+    logo: lecture/static/logo.png
+
+build:
+  execute:
+    execute_notebooks: off
+
