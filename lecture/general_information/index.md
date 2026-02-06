@@ -1,5 +1,4 @@
 
-![diler logo](../static/logo.png)
 ```{image} ../static/logo.png
 :alt: diler logo
 :align: left
