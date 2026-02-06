@@ -1,3 +1,9 @@
+```{image} ../static/logo.png
+:alt: diler logo
+:align: left
+:width: 300px
+```
+
 # Course overview & procedure
 
 Detailed explanation of what the course is about,
