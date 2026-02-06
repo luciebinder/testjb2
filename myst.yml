@@ -26,6 +26,7 @@ project:
 site:
   options: 
     logo: lecture/static/logo.png
+    use_title: false
   actions:
     - title: View on GitHub
       url: https://github.com/luciebinder/testjb2
