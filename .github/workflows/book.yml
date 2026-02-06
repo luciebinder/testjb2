@@ -33,7 +33,7 @@ jobs:
     # Build the page
     - name: Build the book
       run: |
-        myst build --html
+        myst build --html --site-url https://luciebinder.github.io/testjb2
         echo "Inhalt von _build:"
         ls -R _build
     # Push the book's HTML to github-pages
