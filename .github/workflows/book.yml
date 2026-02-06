@@ -33,13 +33,13 @@ jobs:
     # Build the page
     - name: Build the book
       run: |
-        jupyter book build lecture
-        echo "Inhalt von lecture/_build:"
-        ls -R lecture/_build
+        myst build --html
+        echo "Inhalt von _build:"
+        ls -R _build
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3.6.1
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./lecture/_build/html
+        publish_dir: ./_build/html
         force_orphan: false
