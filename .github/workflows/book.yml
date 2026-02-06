@@ -33,7 +33,7 @@ jobs:
     # Build the page
     - name: Build the book
       run: |
-        jupyter book build --builder pdfhtml lecture
+        jupyter book build lecture --builder html 
         echo "Inhalt von lecture/_build:"
         ls -R lecture/_build
     # Push the book's HTML to github-pages
