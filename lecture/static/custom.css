@@ -1,0 +1,9 @@
+/* Doppelte H1 ("Welcome!") ausblenden oben im Theme */
+div.theme-header > h1 {
+    display: none;
+}
+
+/* Überschriften dünner machen */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
