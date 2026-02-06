@@ -3,6 +3,8 @@ version: 1
 project:
   title: Course Template for ressources in higher education
   copyright: "2022"
+  authors:
+    - name: # names
   github: luciebinder/testjb2
 
 toc:
@@ -19,6 +21,7 @@ toc:
     - file: lecture/general_information/dei
 
 site:
+  # template: book-theme
   options: 
     logo: lecture/static/logo.png
 
