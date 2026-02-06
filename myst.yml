@@ -8,7 +8,7 @@ project:
   github: luciebinder/testjb2
   
   license: SD 3-Clause License
-  
+
   toc:
     - file: lecture/general_information/index.md  
     - file: lecture/general_information/overview.md
@@ -21,6 +21,8 @@ project:
     - file: lecture/general_information/CoC.md
     - file: lecture/general_information/dei.md
 
+
+
 site:
   template: book-theme
   options: 
@@ -28,6 +30,10 @@ site:
   actions:
     - title: View on GitHub
       url: https://github.com/luciebinder/testjb2
+  parts:
+    footer: |
+      By [author]
+      (c) Copyright 2026, BSD-3-Clause license. 
 
 deploy:
   url: https://luciebinder.github.io/testjb2
