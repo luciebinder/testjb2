@@ -24,7 +24,6 @@ project:
 
 
 site:
-  template: book-theme
   options: 
     logo: lecture/static/logo.png
   actions:
