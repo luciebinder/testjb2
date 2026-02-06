@@ -4,15 +4,15 @@ project:
   title: Course Template for ressources in higher education
   copyright: "2022"
   authors:
-    - name: []    
+    - name: Lucie Binder    
   github: luciebinder/testjb2
 
   requirements: 
-    jupyter-book>=2
-    matplotlib
-    numpy
-    pandas
-    jupytext
+    - jupyter-book>=2
+    - matplotlib
+    - numpy
+    - pandas
+    - jupytext
   
   license: SD 3-Clause License
   
