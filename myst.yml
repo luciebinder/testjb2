@@ -37,3 +37,9 @@ site:
 deploy:
   url: https://luciebinder.github.io/testjb2
 
+sphinx:
+  config:
+    html_static_path:
+      - _static
+    html_css_files:
+      - custom.css
