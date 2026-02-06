@@ -1,8 +1,3 @@
-/* Doppelte H1 ("Welcome!") ausblenden oben im Theme */
-div.theme-header > h1 {
-    display: none; #
-}
-
 
 ```{image} ../static/logo.png
 :alt: diler logo
