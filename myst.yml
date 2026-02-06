@@ -22,7 +22,7 @@ project:
     - file: lecture/general_information/dei.md
 
 site:
-  # template: book-theme
+  template: book-theme
   options: 
     logo: lecture/static/logo.png
   actions:
