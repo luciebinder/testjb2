@@ -1,4 +1,5 @@
 jupyter-book>=2
+mystmd
 matplotlib
 numpy
 pandas
