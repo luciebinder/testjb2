@@ -7,6 +7,15 @@ project:
     - name: []    
   github: luciebinder/testjb2
 
+  requirements: 
+    jupyter-book>=2
+    matplotlib
+    numpy
+    pandas
+    jupytext
+  
+  license: SD 3-Clause License
+  
   toc:
     - file: lecture/general_information/index.md  
     - file: lecture/general_information/overview.md
