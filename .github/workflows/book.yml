@@ -41,4 +41,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./lecture/_build/html
         force_orphan: false
-        allow_empty_commit: true 
+        clean: false
