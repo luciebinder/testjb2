@@ -38,3 +38,8 @@ site:
 deploy:
   url: https://luciebinder.github.io/testjb2
 
+sphinx:
+  extra_extensions:
+    - sphinx_book_theme
+  config:
+    html_theme: classic
