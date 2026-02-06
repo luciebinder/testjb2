@@ -8,23 +8,18 @@ project:
   github: luciebinder/testjb2
 
   toc:
-    root: lecture/general_information/index.md
-      - file: lecture/general_information/overview.md
-      - file: lecture/general_information/setup.md
-      - file: lecture/general_information/intro.md
-      - file: lecture/content/intro_content.md
-        children:
-          - file: lecture/content/static_content.md
-          - file: lecture/content/interactive_notebook.ipynb
-      - file: lecture/general_information/CoC.md
-      - file: lecture/general_information/dei.md
+    - file: lecture/general_information/index.md  
+    - file: lecture/general_information/overview.md
+    - file: lecture/general_information/setup.md
+    - file: lecture/general_information/intro.md
+    - file: lecture/content/intro_content.md
+      children:
+        - file: lecture/content/static_content.md
+        - file: lecture/content/interactive_notebook.ipynb
+    - file: lecture/general_information/CoC.md
+    - file: lecture/general_information/dei.md
 
 site:
   # template: book-theme
   options: 
     logo: lecture/static/logo.png
-
-  build:
-    execute:
-      execute_notebooks: off
-
