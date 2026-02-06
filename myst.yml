@@ -5,21 +5,21 @@ project:
   copyright: "2022"
 
 site:
-  logo: static/logo.png
+  logo: lecture/static/logo.png
 
 build:
   execute:
     execute_notebooks: off
 
 navigation:
-  root: general_information/index
+  root: lecture/general_information/index
   chapters:
-    - file: general_information/overview
-    - file: general_information/setup
-    - file: general_information/intro
-    - file: content/intro_content
+    - file: lecture/general_information/overview
+    - file: lecture/general_information/setup
+    - file: lecture/general_information/intro
+    - file: lecture/content/intro_content
       sections:
-        - file: content/static_content
-        - file: content/interactive_notebook
-    - file: general_information/CoC
-    - file: general_information/dei
+        - file: lecture/content/static_content
+        - file: lecture/content/interactive_notebook
+    - file: lecture/general_information/CoC
+    - file: lecture/general_information/dei
