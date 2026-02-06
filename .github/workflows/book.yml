@@ -3,7 +3,7 @@ name: MyST GitHub Pages Deploy
 # Only run this when the master branch changes
 on:
   push:
-    branches: [main] 
+    branches: main 
 
   workflow_dispatch:        # manual “Run workflow” button
     # If your git repository has the Jupyter Book within some-subfolder next to
