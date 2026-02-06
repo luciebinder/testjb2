@@ -1,4 +1,11 @@
-# Welcome!
+---
+title: Welcome!
+---
+
+```{image} ../static/logo.png
+:alt: diler logo
+:align: left
+```
 
 Hello everyone and welcome to the course page for X
 
