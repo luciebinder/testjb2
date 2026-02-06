@@ -2,9 +2,9 @@ version: 1
 
 project:
   title: Course Template for ressources in higher education
-  copyright: 2022
+  copyright: "2022"
   authors:
-    - name:     
+    - name: Lucie Binder     
   github: luciebinder/testjb2
 
   toc:
