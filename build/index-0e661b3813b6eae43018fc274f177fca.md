@@ -3,8 +3,9 @@
 :alt: diler logo
 :align: left
 ```
-
-# Welcome!
+---
+title: Welcome!
+---
 
 Hello everyone and welcome to the course page for X
 
